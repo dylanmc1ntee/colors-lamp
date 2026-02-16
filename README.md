@@ -106,6 +106,21 @@ These endpoints are called using JavaScript (fetch requests) from the frontend.
 
 ---
 
+## AI Assistance Disclosure
+This project was developed with assistance from generative AI tools:
+- **Tool**: ChatGPT 5.2
+- **Dates**: February 15, 2026
+- **Scope**: Help create README.md file
+- **Use**: I wrote in plain english what I needed to be included in
+the README.md file, and it generated clean and accurate documentation
+that tells all the user needs to know about the webapp
+
+All AI-generated code was reviewed, tested, and modified to meet
+assignment requirements. Final implementation reflects my understanding
+of the concepts.
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
