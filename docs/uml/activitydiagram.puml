@@ -1,0 +1,33 @@
+@startuml activitydiagram
+
+start
+
+:Enter Username & Password;
+:Click Login;
+
+if (Valid Login?) then (Yes)
+  :Save Cookie;
+  :Redirect to color.html;
+else (No)
+  :Display Error Message;
+  stop
+endif
+
+:User chooses action;
+
+if (Add Color?) then (Yes)
+  :Enter Color;
+  :Send request to AddColor.php;
+  :Display "Color added";
+else (Search Color)
+  :Enter Search Text;
+  :Send request to SearchColors.php;
+  :Display Results;
+endif
+
+:Click Logout;
+:Clear Cookie;
+
+stop
+
+@enduml
