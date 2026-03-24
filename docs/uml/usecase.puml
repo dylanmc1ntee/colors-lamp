@@ -1,0 +1,17 @@
+@startuml usecasediagram
+
+actor User
+
+rectangle "COLORS Web App" {
+    (Login)
+    (Search Colors)
+    (Add Color)
+    (Logout)
+}
+
+User --> (Login)
+User --> (Search Colors)
+User --> (Add Color)
+User --> (Logout)
+
+@enduml
